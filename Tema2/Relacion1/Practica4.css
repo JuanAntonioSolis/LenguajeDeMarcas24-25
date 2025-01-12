@@ -1,0 +1,29 @@
+p{
+    font-size: 12pt;
+    text-decoration: underline;
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 3cm;
+}
+
+h1{
+    font-size: 36pt;
+    text-decoration: overline;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+td{
+    font-size: 24pt;
+    text-align: center;
+    font-variant: normal;
+    text-indent: 1cm;
+}
+
+body{
+    font-size: 8pt;
+    text-align: left;
+    text-transform: lowercase;
+    text-indent: 2cm;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Almeria</title>
+    <style>
+        body{
+            background-color: tan;
+        
+        }
+        form{
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        h1{
+            margin-left: 25%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Restaurante Almeriense</h1>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Datos personalos</legend>
+
+            <label for="nombre">Nombre</label> <br>
+            <input type="text" name="nombrei" id="nombrei" size="20"> <br><br>
+
+            <label for="apellidos">Apellidos</label> <br>
+            <input type="text" name="surname" id="surname" size="25"> <br><br>
+
+            <label for="correo">Correo electrónico</label> <br>
+            <input type="text" name="mail" id="mail" size="25"> <br><br>
+
+        </fieldset> <br>
+
+
+        <label for="comen">Número de comensales</label> <br>
+        <input type="text" name="numer" id="numer" size="1"> <br><br>
+
+        <label for="menu">Tipo de comida a reservar</label>
+        <select name="comida" id="comida">
+            <option value="breakfast">Desayuno</option>
+            <option value="lunch">Comida</option>
+            <option value="dinner">Cena</option>
+
+        </select> <br> <br>
+
+        <fieldset>
+            <legend>Fecha de reserva</legend>
+
+            <label for="day">Día</label>
+            <input type="text" name="dia" id="dia" size="5">
+
+            <label for="month">Mes</label>
+            <input type="text" name="mes" id="mes" size="10">
+
+            <label for="year">Año</label>
+            <input type="text" name="year1" id="year1" size="5">
+
+        </fieldset> <br>
+
+        <label for="place">Lugar de mesa</label> <br>
+        <input type="radio" name="lugar" id="terraza" checked="checked"> Terraza <br>
+        <input type="radio" name="lugar" id="inte"> Interior <br> <br>
+
+        <label for="extras">Extras</label> <br> <br>
+            <label for="music">Musica en vivo</label>
+            <input type="checkbox" name="musica" id="musica"> <br>
+
+            <label for="camarero">Camarero personalizado</label>
+            <input type="checkbox" name="camarero" id="camarero"> <br>
+
+            <label for="barra">Barra libre tras la comida</label>
+            <input type="checkbox" name="barralibre" id="barralibre"> <br> <br> <br>
+
+        <label for="comentarios">Comentarios adicionales</label> <br>
+        <textarea name="comen" cols="50" rows="5"></textarea> <br> <br>
+
+        <input type="submit" value="Enviar Información">
+        <input type="reset" value="Borrar datos introducidos">
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+div{
+    size: 300px 300px;
+    margin: 40px;
+    padding: 30px;
+}
+    
+
+div #d1{
+    position: relative;
+
+    right: 200px;
+    bottom: 100px;
+    background-color: red;
+    
+}
+
+div #d2{
+    position: relative;
+
+    left: 50px;
+    top: 50px;
+    background-color: purple;
+    
+}
+
+div #d3{
+    position: relative;
+
+    right: 450px;
+    top: 300px;
+    background-color: greenyellow;
+
+}

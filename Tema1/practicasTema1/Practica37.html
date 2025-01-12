@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+
+    <h1>Rellena tu CV</h1> <br>
+
+    <form action="">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="provincia">Provincia</label> <br>
+            <select name="prov" id="prov">
+                <option value="selec" selected="selected">- SELECCIONA -</option>
+                <option value="Alm">Almeria</option>
+                <option value="Gr">Granada</option>
+                <option value="Jae">Jaen</option>
+                <option value="Cad">Cadiz</option>
+                <option value="Sev">Sevilla</option>
+                <option value="Hue">Huelva</option>
+                <option value="Cor">Cordoba</option>
+            </select>
+            <br><br>
+
+            <label for="fnac">Fecha de nacimiento</label> <br>
+            <input type="text" name = "dia" size="1"> de 
+            <select name="mes" id="mes">
+                <option value="Ene" selected="selected">Enero</option>
+                <option value="Feb">Febrero</option>
+                <option value="Mar">Marzo</option>
+                <option value="Abr">Abril</option>
+                <option value="May">Mayo</option>
+                <option value="Jun">Junio</option>
+                <option value="Jul">Julio</option>
+                <option value="Ago">Agosto</option>
+                <option value="Sep">Septiembre</option>
+                <option value="Oct">Octubre</option>
+                <option value="Nov">Noviembre</option>
+                <option value="Dic">Diciembre</option>
+            </select>
+            de
+            <input type="text" name="año" size="1">
+            <br><br>
+
+            <label for="temas">Temas de interés</label> <br>
+            <select name="temasint" id="temasint" size ="5">
+                <option value="AdmBas">Administración de base de datos</option>
+                <option value="Analis">Analisis y programación</option>
+                <option value="Arq">Arquitectura</option>
+                <option value="Cal">Calidad</option>
+                <option value="ERP">ERP</option>
+                <option value="CRM">CRM</option>
+                <option value="Busi">Bussines Intelligence</option>
+                <option value="Hard">Hardware</option>
+            </select>
+
+
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
