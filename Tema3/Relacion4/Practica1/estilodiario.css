@@ -1,0 +1,25 @@
+body{
+    background-image: url(../Practica1/img/fondo.jpg);
+    width: 100%;
+}
+
+nav{
+    background-color: #ab2a3e;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+#logo{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top:-20px;
+}
