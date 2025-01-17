@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7em;
+    color: #464;
+}
+
+#wrap{
+    background-color: white;
+}
+
+#header{
+    background-image: url(../Practica2/img/header_verde.jpg);
+}
+
+#right h2 a{
+    color: #262;
+}
+
+#right a{
+    color: #262;
+}
+
+#left h3{
+    background-color: #262;
+    color: white;
+}
+
+#left ul li{
+    background-color: #beffbe;
+}
+
+#left a{
+    color: #262;
+}
