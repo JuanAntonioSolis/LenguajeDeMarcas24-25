@@ -17,107 +17,162 @@
 			HOJA DE INSCRIPCIÓN DE LOS CICLOS FORMATIVOS DE GRADO SUPERIOR
 		</header>
 
-		<div id="datPersonales">
-			Datos personales(*)
+		<form action="">
 
-			Apellidos:
-			Nombre:
-			DNI:
-			Domicilio(Calla, plaza, número):
-			Provincia:
+			<div id="datPersonales">
+				<fieldset>
+					<legend>Datos personales(*)</legend>
 
-			Almeria
-			Granada
-			Málaga
-			Sevilla
-			Cordoba
-			Jaén
-			Huelva
-			Cádiz
-			Localidad:
+					<label for="apellido">Apellidos:</label> <br>
+					<input type="text" name="surname" value="" size="25">
+
+					<label for="nombre">Nombre:</label> <br>
+					<input type="text" name="nom" value="" size="25">
+
+					<label for="dni">DNI:</label> <br>
+					<input type="text" name="id" id="" size="12">
+					<br><br>
+
+					<label for="domicilio">Domicilio(Calle, plaza, número):</label> <br>
+					<input type="text" name="address" size="40">
+
+					<label for="provincia">Provincia:</label> <br>
+					<select name="prov" id="prov">
+						<option value="almeria" selected="selected">Almería</option>
+						<option value="granada">Granada</option>
+						<option value="malaga">Málaga</option>
+						<option value="sevilla">Sevilla</option>
+						<option value="cordoba">Córdoba</option>
+						<option value="jaen">Jaén</option>
+						<option value="huelva">Huelva</option>
+						<option value="cadiz">Cádiz</option>
+					</select>
+
+					<label for="localidad">Localidad:</label> <br>
+					<input type="text" name="local" size="30">
+					<br><br>
+
+					<label for="email">Email:</label> <br>
+					<input type="text" name="correo" size="40">
+
+					<label for="fecha_nac">Fecha Nac.</label> <br>
+					<input type="text" name="bornDate" size="10" value="dd/mm/aaaa">
+				</fieldset>
+			</div>
+
+			<div id="reqAcceso">
+				<fieldset>
+					<legend>Requisitos de acceso</legend>
+
+					<input type="radio" name="requisitos" id="directo" checked="checked"> Directo <br>
+
+					<input type="radio" name="requisitosD" id="bach">Bachillerato LOGSE.
+					<label for="modalidad">Modalidad:</label>
+					<input type="text" name="requisitos" size="18" value="Modalidad de bachiller"> <br>
+
+					<input type="radio" name="requisitosD" id="gb">Grado Medio <br>
+
+					<input type="radio" name="requisitosD" id="other" checked="checked"> Otros
+					<label for="especif">(especifique):</label>
+					<input type="text" name="requisitos" id="otros" size="18"> <br>
+
+					<input type="radio" name="requisitos" id="prueba"> Mediante Prueba
+				</fieldset>
+			</div>
+
+			<div id="solicitud">
+				<fieldset>
+					<legend>Solicitud</legend>
+
+					<label for="cf">Ciclo Formativo</label>
+					<select name="ciclo" id="ciclo">
+						<option value="selec" selected="selected">- selecciona -</option>
+						<option value="dam">CFGS Desarrollo Aplicaciones Multiplataforma</option>
+						<option value="daw">CFGS Desarrollo Aplicaciones Web</option>
+						<option value="prp">CFGS Prevención Riesgos Profesionales</option>
+					</select>
+					<p>En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:
+					</p>
+					<br>
+
+					<label for="ciclos">Ciclos Formativos:</label> <br>
+					<input type="text" value="" name="ciclos" size="18"> <br> <br>
+					<input type="text" value="" name="ciclos" size="18"> <br>
+
+					<label for="centros">Centros:</label> <br>
+					<input type="text" value="" name="centros" size="18"> <br> <br>
+					<input type="text" value="" name="centros" size="18"> <br>
+
+					<label for="locali">Localidad:</label> <br>
+					<input type="text" value="" name="locali" size="18"> <br> <br>
+					<input type="text" value="" name="locali" size="18"> <br>
+				</fieldset>
+			</div>
+
+			<div id="docPresentada">
+				<fieldset>
+					<legend>Documentación presentada</legend>
+
+					<input type="checkbox" id="fotocopia" name="fotocopiadni" value="fotocopia" checked="checked">
+        			<label for="fotocopia">Fotocopia DNI</label>
+
+					<input type="checkbox" id="certificado" name="certAcademico" value="certificado" checked="checked">
+        			<label for="certificado">Certificado Académico</label><br>
+
+					<input type="checkbox" id="otros" name="otrosDoc" value="otros" checked="checked">
+        			<label for="otros">Otros documentos</label>
+					<label for="especif">(especifique):</label>
+					<input type="text" name="requisitos" id="otros" size="18"> 
+				</fieldset>
+			</div>
+
+			<div id="procDatos">
+				Comunicación
+
+				De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
+				Administraciones Públicas y del procedimientos Administrativo Común, según la nueva redacción de la ley
+				4/1999,
+				de 13 de enero,se informa que:
+
+				Elplazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que se haya tenido
+				entrada en
+				el registro del órgano
+				competente para la tramitación, sin perjuicio de lo previsto en el artículo 42.5 de la misma ley.
+				El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya dictado y
+				notificado
+				la resolución
+				correspondiente, es desestimatorio de la solicitud.
 
 
-			Email:
-			Fecha Nac.
-		</div>
+				de de 2019
+				2020
+				2021
+				2022
 
-		<div id="reqAcceso">
-			Requisitos de acceso
+				La persona solicitante,
+				Firma
+				Coloca aquí tu firma electrónica visible
+				Enviar
+				(*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su
+				tratamiento
+				por la
+				Consejeria de educación, en el uso
+				de las funciones propias que tiene atribuídas en el ámbito de sus competencias, pudiendo dirigirse a
+				cualquier
+				órgano de la misma para ejercitar los derechos de acceso, rectificación,
+				cancelación y oposición, según lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección
+				de
+				Datos
+				."
+			</div>
 
-			Directo
-			Bachillerato LOGSE. Modalidad:
-			Grado Medio
-			Otros (especifique):
-			Mediante prueba
-		</div>
-
-		<div id="solicitud">
-			Solicitud
-
-
-			Ciclo Formativo
-			selecciona
-			CFGS Desarrollo Aplicaciones Multiplataforma
-			CFGS Desarrollo Aplicaciones Web
-			CFGS Prevención Riesgos Profesionales
-			En caso de no ser admitido/a, solicita la admisión por orden de preferencia en los siguientes:
-			Ciclos formativos:
-			Centros:
-			Localidad:
-		</div>
-
-		<div id="docPresentada">
-			Documentación presentada
-			Fotocopia DNI
-			Certificado Académico
-			Otros documentos (especifique):
-
-			Comunicación
-
-			De acuerdo con el artículo 42.2 de la Ley 30/1992, de 26 de noviembre , de Régimen Jurídico de las
-			Administraciones Públicas y del procedimientos Administrativo Común, según la nueva redacción de la ley
-			4/1999,
-			de 13 de enero,se informa que:
-
-			Elplazo máximo para resolver la presente solicitud es de 3 meses desde la fecha en que se haya tenido
-			entrada en
-			el registro del órgano
-			competente para la tramitación, sin perjuicio de lo previsto en el artículo 42.5 de la misma ley.
-			El efecto que producirá el silencio administrativo si transcurre el plazo sin que se haya dictado y
-			notificado
-			la resolución
-			correspondiente, es desestimatorio de la solicitud.
-
-
-			de de 2019
-			2020
-			2021
-			2022
-
-			La persona solicitante,
-			Firma
-			Coloca aquí tu firma electrónica visible
-			Enviar
-		</div>
-
-		<div id="procDatos">
-			(*)Los datos personales contenidos en este impreso podrán ser incluidos en un fichero para su tratamiento
-			por la
-			Consejeria de educación, en el uso
-			de las funciones propias que tiene atribuídas en el ámbito de sus competencias, pudiendo dirigirse a
-			cualquier
-			órgano de la misma para ejercitar los derechos de acceso, rectificación,
-			cancelación y oposición, según lo dispuesto en la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de
-			Datos
-			."
-		</div>
-
-		<footer>
-			DIRECTOR/A O TITULAR DEL CENTRO
-		</footer>
+			<footer>
+				DIRECTOR/A O TITULAR DEL CENTRO
+			</footer>
 
 
 	</div>
+	</form>
 </body>
 
 </html>
