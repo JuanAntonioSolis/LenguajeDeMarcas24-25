@@ -1,0 +1,22 @@
+body{
+    width: 100%;
+    background-image: url(../EjerciciosApuntesClase/imgs/pexels-eberhardgross-443446.jpg);
+}
+
+
+
+#caja{
+    background-color: rgba(0, 0, 100, .8);
+    float: right;
+    width: 25%;
+    text-align: center;
+    margin-top: 10%;
+    margin-right: 3%;
+    height: 400px;
+    font-size: 40pt;
+    
+    
+}
+
+
+
