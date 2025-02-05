@@ -1,1 +1,30 @@
+#contenedor{
+    background-color: beige;
+    width: 100%;
+}
+
+header{
+    background-color: gainsboro;
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#datPersonales fieldset{
+    background-color: gainsboro;
+    width: 95%;
+    margin: 0 auto;
+    border: 0;
+}
+
+#datPersonales legend{
+    background-color: white;
+    border: 4px solid gainsboro;
+}
+
+
+
 
