@@ -1,0 +1,44 @@
+table, tr, td{
+    border:  1px solid black;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd){
+    background-color: orange;
+}
+
+table tr:nth-child(even){
+    background-color: green;
+}
+
+table .sasp{
+    color: white;
+}
+
+table .prog{
+    color: rebeccapurple;
+}
+
+table .ipe{
+    color: red;
+}
+
+table .badat{
+    color: cyan;
+}
+
+table .sinf{
+    color: darkslategray;
+}
+
+table .endes{
+    color: chartreuse;
+}
+
+table .daspgs{
+    color: yellowgreen;
+}
+
+table .lmsgi{
+    color: deeppink;
+}
