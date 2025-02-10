@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario HTML5</title>
     <link rel="stylesheet" href="formEstilo.css">
 </head>
 
@@ -15,136 +15,145 @@
     </header>
 
     <div id="contenedor">
-        <fieldset>
-            <legend>A. Datos personales</legend>
-            <table>
-                <tr>
-                    <td><label for="nombre">1. Nombre</label>
-                        <input type="text" name="name" value="" size="25" autofocus>
-                    </td>
 
-                    <td><label for="apellido1">2. Apellido1</label>
-                        <input type="text" name="sur1" value="" size="25">
-                    </td>
+        <form method="get" target="">
+            <fieldset>
+                <legend>A. Datos personales</legend>
+                <table>
+                    <tr>
+                        <td><label for="nombre">1. Nombre</label>
+                            <input type="text" name="name" value="" size="25" autofocus>
+                        </td>
 
-
-                </tr>
-
-                <tr>
-                    <td><label for="apellido2">3. Apellido2</label>
-                        <input type="text" name="sur2" size="25">
-                    </td>
-                    <td><label for="telf">4. Teléfono</label>
-                        <input type="tel" name="telf" size="25">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td><label for="email">5. Email</label>
-                        <input type="email" name="correo" size="25">
-                    </td>
-                    <td><label for="enlace">6. URL</label>
-                        <input type="url" name="url" size="25" value="Escribe la URL de tu página personal">
-                    </td>
-                </tr>
-
-                <tr>
-                    <td><label for="localidad">7. Tu localidad</label>
-                        <select name="localidad" id="local">
-                            <option value="Cuevas" selected="selected">Cuevas del Almanzora</option>
-                            <option value="Vera">Vera</option>
-                            <option value="Garrucha">Garrucha</option>
-                        </select>
-                    </td>
-
-                </tr>
-            </table>
-        </fieldset>
-
-        <fieldset>
-            <legend>B. Datos del pedido</legend>
-
-            <table>
-                <tr>
-                    <td><label for="fechayhora">6. Fecha y hora</label>
-                        <input type="datetime-local" name="fecha" value="" size="25">
-                    </td>
-
-                    <td><label for="numPedido">7. Número</label>
-                        <input type="number" name="numero" value="" size="12" min="-1" max="10">
-                    </td>
-
-                </tr>
-
-                <tr>
-                    <td><label for="color">8. Color pedido</label>
-                        <input type="color" name="colorPedido" size="5">
-                    </td>
-
-                </tr>
-            </table>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>C. Datos entrega</legend>
-
-            <table>
-                <tr>
-                    <td><label for="fechaEntrega">9. Fecha de entrega</label>
-                        <input type="date" name="fechaE" value="" size="20">
-                    </td>
-
-                    <td><label for="hora">10. Hora</label>
-                        <input type="time" name="hora" value="" size="15">
-                    </td>
+                        <td><label for="apellido1">2. Apellido1</label>
+                            <input type="text" name="sur1" value="" size="25">
+                        </td>
 
 
-                </tr>
+                    </tr>
 
-                <tr>
-                    <td><label for="docPresentada">11. Documentación presentada:</label>
+                    <tr>
+                        <td><label for="apellido2">3. Apellido2</label>
+                            <input type="text" name="sur2" size="25">
+                        </td>
+                        <td><label for="telf">4. Teléfono</label>
+                            <input type="tel" name="telf" size="25">
+                        </td>
+                    </tr>
 
-                        <input type="checkbox" id="factura" name="factura" value="factura">
-                        <label for="factura">Factura</label>
+                    <tr>
+                        <td><label for="email">5. Email</label>
+                            <input type="email" name="correo" size="25">
+                        </td>
+                        <td><label for="enlace">6. URL</label>
+                            <input type="url" name="url" size="25" value="Escribe la URL de tu página personal">
+                        </td>
+                    </tr>
 
-                        <input type="checkbox" id="certificado" name="certificado" value="certificado">
-                        <label for="certificado">Certificado Académico</label>
+                    <tr>
+                        <td><label for="localidad">7. Tu localidad</label>
+                            <select name="localidad" id="local">
+                                <option value="Cuevas" selected="selected">Cuevas del Almanzora</option>
+                                <option value="Vera">Vera</option>
+                                <option value="Garrucha">Garrucha</option>
+                            </select>
+                        </td>
 
-                    </td>
+                    </tr>
+                </table>
+            </fieldset>
 
-                </tr>
+            <fieldset>
+                <legend>B. Datos del pedido</legend>
 
-                <tr>
-                    <td><label for="recogida">8. Recogida</label>
-                        <input type="radio" name="recogida" id="tienda">
-                        <label for="tienda">Tienda</label>
-                        <input type="radio" name="recogida" id="casa">
-                        <label for="casa">Casa</label>
-                    </td>
+                <table>
+                    <tr>
+                        <td><label for="fechayhora">6. Fecha y hora</label>
+                            <input type="datetime-local" name="fecha" value="" size="25">
+                        </td>
 
-                </tr>
-            </table>
+                        <td><label for="numPedido">7. Número</label>
+                            <input type="number" name="numero" value="" size="12" min="-1" max="10">
+                        </td>
 
-        </fieldset>
+                    </tr>
 
-        <fieldset>
-            <legend>D. Más información</legend>
+                    <tr>
+                        <td><label for="color">8. Color pedido</label>
+                            <input type="color" name="colorPedido" size="5">
+                        </td>
 
-            <table>
-                <tr>
-                    <td><label for="busca">11. Busca aquí</label>
-                        <input type="search" name="busca" id="busca">
-                        <input type="button" name="Buscar" id="Buscar" value="Buscar">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="coment">12. Otros comentarios</label>
-                        
-                    </td>
-                </tr>
-            </table>
-        </fieldset>
+                    </tr>
+                </table>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>C. Datos entrega</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="fechaEntrega">9. Fecha de entrega</label>
+                            <input type="date" name="fechaE" value="" size="20">
+                        </td>
+
+                        <td><label for="hora">10. Hora</label>
+                            <input type="time" name="hora" value="" size="15">
+                        </td>
+
+
+                    </tr>
+
+                    <tr>
+                        <td><label for="docPresentada">11. Documentación presentada:</label>
+
+                            <input type="checkbox" id="factura" name="factura" value="factura">
+                            <label for="factura">Factura</label>
+
+                            <input type="checkbox" id="certificado" name="certificado" value="certificado">
+                            <label for="certificado">Certificado Académico</label>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td><label for="recogida">8. Recogida</label>
+                            <input type="radio" name="recogida" id="tienda">
+                            <label for="tienda">Tienda</label>
+                            <input type="radio" name="recogida" id="casa">
+                            <label for="casa">Casa</label>
+                        </td>
+
+                    </tr>
+                </table>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>D. Más información</legend>
+
+                <table>
+                    <tr>
+                        <td><label for="busca">11. Busca aquí</label>
+                            <input type="search" name="busca" id="busca" value="Introduce el término de búsqueda">
+                            <input type="button" name="Buscar" id="Buscar" value="Buscar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="coment">12. Otros comentarios</label> <br>
+                            <textarea name="comentario" id="comentario" rows="10" cols="60">
+                            Introduce tus comentarios
+                            </textarea> <br>
+
+                        </td>
+                    </tr>
+                </table>
+
+                <input type="button" value="Enviar" class="boton">
+            </fieldset>
+
+        </form>
     </div>
 
 
