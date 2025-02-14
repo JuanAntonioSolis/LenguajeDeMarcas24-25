@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#container div{
+    background-color:rgba(123,198,199,0.8);
+    width: 500px;
+    height: 30px;
+    margin-left: 8px;
+    padding-top: 10px;
+}
+
