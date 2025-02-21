@@ -1,0 +1,25 @@
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; 
+}
+
+#tarjeta{
+    background-color: black;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+
+#contenido{
+    padding-top: 25px;
+    width: 30%;
+    height: 200px;
+}
+
+#pie{
+    text-align: center;
+    color: white;
+    background-color: lightgrey;
+    width: 30%;
+}

@@ -1,22 +1,28 @@
-#lateral{
+#menu{
     background-color: paleturquoise;
-    width: 15%;
+    width: 30%;
     height: 500px;
     gap: 2px;
     padding-top: 12px;
     padding-left: 24px;
+}
+
+ul li{
+    list-style-type: none;
+    border-bottom: 1px solid grey;
+    width: 80%;
 }
 
 #principal{
     background-color: palegreen;
-    width: 60%;
+    width: 54%;
     height: 500px;
     gap: 2px;
     padding-top: 12px;
     padding-left: 24px;
 }
 
-body{
+#contenedor{
     display: flex;
     flex-wrap: nowrap;
 }

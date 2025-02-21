@@ -1,0 +1,71 @@
+#container{
+    width: 75%;
+    margin: 0 auto;
+    color: grey;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+header .current{
+    color: red;
+}
+
+.inicio{
+    font-size: xx-large;
+    border-bottom: 1px solid gray;
+}
+
+
+.inicio span{
+    font-size: 15pt;
+}
+
+.inicio h2{
+    font-size: 12pt;
+}
+
+.parte1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.parte1 a span{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.artColumnas{
+    column-gap: 4px;
+    column-count: 3;   
+}
+
+
+
+
+
+
+
+
