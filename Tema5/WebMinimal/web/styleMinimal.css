@@ -4,6 +4,10 @@
     color: grey;
 }
 
+body{
+    background-color: whitesmoke;
+}
+
 header{
     display: flex;
     flex-direction: row;
@@ -11,8 +15,8 @@ header{
 }
 
 header ul{
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 header ul li{
@@ -32,7 +36,7 @@ header .current{
 
 .inicio{
     font-size: xx-large;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 
@@ -44,23 +48,65 @@ header .current{
     font-size: 12pt;
 }
 
-.parte1{
+.parte1 {
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.parte1 a span{
+.parte1 article{
+    margin-right: 20px;
+}
+
+
+.parte1 span {
+    display: flex;
+    height: 30px;
     background-color: black;
-    color: white;
-    height: 50px;
-    width: 40px;
     text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parte1 img{
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .artColumnas{
     column-gap: 4px;
-    column-count: 3;   
+    column-count: 3; 
+    column-rule: 2px solid gray;
+    border-top: 2px solid gray;;
+    padding-top: 20px;  
 }
+
+.artColumnas p{
+    padding-left: 15px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+}
+
+
 
 
 
