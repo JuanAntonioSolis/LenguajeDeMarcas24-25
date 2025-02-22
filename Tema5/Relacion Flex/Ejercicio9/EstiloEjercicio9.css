@@ -1,0 +1,29 @@
+body{
+    padding: 20px;
+}
+
+#contenedor{
+    display: flex;
+    width: 100%;
+}
+
+#colIzquierda{
+    width: 50%;
+    background-color: #0e7c74;
+    height: 300px;
+    color: white;
+    padding: 24px;
+}
+
+#colDerecha{
+    width: 25%;
+    background-color: white;
+    height: 300px;
+    
+}
+
+.derecha{
+    border: 1px solid lightgray;
+    height: 124px;
+    padding: 24px;
+}

@@ -1,0 +1,32 @@
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    
+}
+
+.titulo{
+    width: 100%;
+    background-color: orange;
+    text-align: center;
+}
+
+.lateral{
+    background-color: grey;
+    width: 25%;
+    color: white;
+    padding: 24px;
+}
+
+.centro{
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    padding: 24px;
+}
