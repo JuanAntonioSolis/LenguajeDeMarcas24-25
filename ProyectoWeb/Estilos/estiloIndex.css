@@ -9,6 +9,9 @@ header{
     justify-content: space-around;
     align-items: center;
     position: sticky;
+    top: 0;
+    background-color: white;
+    height: 170px;
 }
 
 header img{
@@ -35,6 +38,39 @@ header ul li{
 header span a{
     color: darkslategrey;
 }
+
+nav a:hover:not(span a){
+    color: grey;
+}
+
+#manos{
+    width: 100%;
+}
+
+#manos img{
+    width: 100%;
+}
+
+#section1{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color: firebrick;
+}
+
+.ben img{
+    width: 15%;
+}
+
+.ben{
+    display: flex;
+}
+
+
+
 
 
 
