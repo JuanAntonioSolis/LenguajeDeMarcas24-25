@@ -52,22 +52,51 @@ nav a:hover:not(span a){
 }
 
 #section1{
-    width: 25%;
+    width: 50%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    background-color: firebrick;
 }
 
-.ben img{
-    width: 15%;
+#section1 h2{
+    text-align: center;
+    border-bottom: 2px solid rgb(191, 129, 0);
+    margin-top: 50px;
+}
+
+#section1 img{
+    width: 10%;
 }
 
 .ben{
     display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
