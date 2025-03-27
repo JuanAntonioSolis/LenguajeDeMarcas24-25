@@ -14,6 +14,7 @@ header{
     height: 170px;
 }
 
+
 header img{
     width: 200px;
     border-radius: 15px;
@@ -45,11 +46,23 @@ nav a:hover:not(span a){
 
 #manos{
     width: 100%;
+    position: relative;
 }
 
 #manos img{
     width: 100%;
 }
+
+#textFoto{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: x-large;
+}
+
+
 
 #section1{
     width: 50%;
@@ -60,6 +73,7 @@ nav a:hover:not(span a){
     text-align: center;
     border-bottom: 2px solid rgb(191, 129, 0);
     margin-top: 50px;
+    color: darkslategrey;
 }
 
 #section1 img{
@@ -67,12 +81,124 @@ nav a:hover:not(span a){
 }
 
 #beny{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    justify-content: center;
+    column-count: 2;
     
 }
+
+.ben{
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.ben h1{
+    background-color: orange;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    padding: 15px;
+}
+
+.cuerp{
+    background-color: beige;
+    border-radius: 15px;
+    color: darkslategrey;
+    padding-bottom: 20px;
+}
+
+#serv{
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#serv h2{
+    padding-top: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#servicios{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 80px;
+}
+
+#servicios h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+
+#servicios article{
+    background-color: rgb(124, 117, 104);
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: bolder;
+    color: rgb(235, 189, 104);
+}
+
+#botonServ{
+    padding-bottom: 40px;
+}
+
+#botonServ a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: rgba(138, 131, 117, 0.5);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#botonServ a:hover{
+    background-color: rgb(191, 129, 0);
+    padding: 18px;
+}
+
+footer{
+    background-color: rgb(191, 129, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer img{
+    width: 150px;
+    border-radius: 15px;
+    
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 80px;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
