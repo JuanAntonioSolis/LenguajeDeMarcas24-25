@@ -185,6 +185,50 @@ footer a{
     font-weight: bold;
 }
 
+#fotoFina{
+    width: 100%;
+}
+
+#fotoFina img{
+    width: 100%;
+}
+
+#presentacion{
+    width: 50%;
+    margin: 0 auto;
+    color: darkslategrey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#parrafos{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#parrafos p{
+    line-height: 2;
+}
+
+#servCalidad{
+    background-color: rgba(255, 106, 34, 0.2);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#servCalidad article{
+    width: 30%;
+    margin: 0 auto;
+    color: darkslategrey;
+    line-height: 2;
+}
+
+#servCalidad h2{
+    border-bottom: 2px solid darkslategrey;
+}
+
 
 
 
