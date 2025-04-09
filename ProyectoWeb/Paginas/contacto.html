@@ -26,7 +26,7 @@
         </nav>
     </header>
 
-    <section>
+    <section id="contacta">
         <h2>Contacto</h2>
 
         <article>
@@ -52,8 +52,43 @@
         <article>
             <h3>FORMULARIO DE CONTACTO</h3>
             <form action="">
-                
+                <input type="text" value="Nombre y apellidos" id="nombreapellidos">
+
+                <input type="text" value="Correo electrónico" id="mail">
+
+                <input type="text" value="Empresa" id="empresa">
+
+                <select name="motivo" id="motivo">
+                    <option value="" selected="selected">Motivo de contacto</option>
+                    <option value="info">Información comercial</option>
+                    <option value="sugerencias">Sugerencias</option>
+                    <option value="agradecimiento">Agracedimientos</option>
+                    <option value="quejas">Quejas o reclamaciones</option>
+                </select>
+
+                <select name="geografica" id="area">
+                    <option value="" selected="selected">Área geográfica</option>
+                    <option value="huercal">Huércal - Overa</option>
+                    <option value="cuevas">Cuevas del Almanzora</option>
+                    <option value="urcal">Úrcal</option>
+                    <option value="puerto">Puerto Lumbreras</option>
+                    <option value="zurgena">Zurgena</option>
+                    <option value="overa">Overa</option>
+                </select>
+
+                <textarea name="mensaje" id="mensaje" cols="50" rows="15">Mensaje</textarea>
+
+                <button type="button" onclick="alert('Formulario enviado correctamente')">ENVIAR</button>
+
             </form>
+        </article>
+    </section>
+
+    <section id="atencion">
+        <article>
+            <h1>ATENCIÓN AL CLIENTE</h1>
+            <p>900 900 900</p>
+            <p>atencioncliente@cuidisa.es</p>
         </article>
     </section>
 
