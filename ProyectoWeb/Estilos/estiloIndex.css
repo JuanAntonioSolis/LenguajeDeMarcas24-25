@@ -251,6 +251,8 @@ footer a{
 
 #listado img{
     width: 250px;
+    margin: 0 auto;
+    padding: 5px;
 }
 
 #listado article{
@@ -259,8 +261,21 @@ footer a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 10px;
     border-radius: 5px;
+}
+
+#listado h3{
+    width: 100%;
+    background-color: rgba(255, 106, 34, 0.2);
+    text-align: center;
+    color: #442727;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#listado p{
+    padding: 15px;
+    line-height: 2;
 }
 
 
