@@ -278,6 +278,61 @@ footer a{
     line-height: 2;
 }
 
+#contacta{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    line-height: 2;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+#atencion{
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#atencion span{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#formulario{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+#textoContacto span{
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+form input{
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form select{
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form textarea{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
 
 
 
