@@ -14,6 +14,10 @@ header{
     height: 170px;
 }
 
+nav{
+    display: flex;
+}
+
 
 header img{
     width: 200px;
@@ -331,6 +335,169 @@ form select{
 form textarea{
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
+}
+
+form button{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(191, 129, 0);
+
+}
+
+form button:hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: gray;
+    font-weight: bold;
+}
+
+/*Estilo responsive tablet*/
+@media (max-width: 768px ){
+    #contacta{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #servCalidad article{
+        width: 80%;
+    }
+
+    #presentacion{
+        width: 80%;
+    }
+    
+    #parrafos{
+        gap: 20px;
+    }
+
+    #manos img{
+        width: 100%;
+    }
+    
+    #textFoto{
+        
+        font-size: 60%;
+        left: 10%;
+    }
+
+    #beny{
+        column-count: 1;
+    }
+
+    header img{
+        width: 100px;
+    }
+
+    #servicios{
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    footer ul li{
+        padding-right: 10px;
+        
+    }
+
+    footer img{
+        width: 100px;
+    }
+
+    header nav{
+        flex-direction: row;
+        
+    }
+
+    header nav ul li{
+        padding-right: 15px;
+    }
+
+    header nav {
+        margin-right:100px;
+    }
+}
+
+/*Estilo responsive movil*/
+@media (max-width: 480px){
+
+    #contacta{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #servCalidad article{
+        width: 80%;
+    }
+
+    #presentacion{
+        width: 80%;
+    }
+    
+    #parrafos{
+        gap: 20px;
+    }
+
+    #manos img{
+        width: 100%;
+    }
+    
+    #textFoto{
+        
+        font-size: 60%;
+        left: 10%;
+    }
+
+    #beny{
+        column-count: 1;
+    }
+
+    header img{
+        width: 100px;
+    }
+
+    #servicios{
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    
+    
+    #servicios article{
+        background-color: rgb(124, 117, 104);
+        border-radius: 10px;
+        padding: 20px;
+        font-weight: bolder;
+        color: rgb(235, 189, 104);
+    }
+
+    footer img{
+        width: 100px;
+    }
+
+    header nav{
+        /*
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        height: 170px;
+        */
+        margin-left: 120px;
+
+        
+    }
+
+
+
+
+
+
+
+
+    
 }
 
 
