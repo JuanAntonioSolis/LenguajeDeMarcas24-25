@@ -1,0 +1,38 @@
+main{
+    color: white;
+    display: grid;
+    grid-template-areas: "cabecera cabecera cabecera"
+                         "menus menus menus"
+                         "contenido contenido lateral"
+                         "pie pie pie";
+    /*grid-template-columns: 75% auto;*/
+    grid-template-rows: 150px 
+                        80px
+                        400px
+                        100px;
+}
+
+header{
+    background-color: lightsalmon;
+    grid-area: cabecera;
+}
+
+nav{
+    background-color: seagreen;
+    grid-area: menus;
+}
+
+section{
+    background-color: royalblue;
+    grid-area: contenido;
+}
+
+aside{
+    background-color: gold;
+    grid-area: lateral;
+}
+
+footer{
+    background-color: tomato;
+    grid-area: pie;
+}
