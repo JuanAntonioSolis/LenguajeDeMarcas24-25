@@ -1,0 +1,14 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    gap: 1px;
+}
+
+main div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}

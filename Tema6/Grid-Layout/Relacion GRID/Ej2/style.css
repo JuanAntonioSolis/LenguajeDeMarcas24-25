@@ -1,0 +1,20 @@
+#container{
+    width: 80%;
+    height: 400px;
+    display: grid;
+    gap: 1px;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+}
+
+#container div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+}
+
+.cabecera{
+    grid-column: 1/4;
+}
