@@ -9,8 +9,8 @@ main{
                          "c2 c5 c6";
 
     grid-template-columns: 100px
-                            150px
-                            150px;
+                            200px
+                            200px;
 
     
 }

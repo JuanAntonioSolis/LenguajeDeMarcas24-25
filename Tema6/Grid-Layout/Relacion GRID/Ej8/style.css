@@ -4,14 +4,8 @@ main{
     text-align: center;
     display: grid;
     gap: 1px;
-    grid-template-areas: "c1 c1 c1"
-                         "c2 c3 c4"
-                         "c2 c5 c6";
-
-    grid-template-columns: 100px
-                            150px
-                            150px;
-
+    grid-template-areas: "c2 c3 c4"
+                         "c5 c6 c1";
     
 }
 

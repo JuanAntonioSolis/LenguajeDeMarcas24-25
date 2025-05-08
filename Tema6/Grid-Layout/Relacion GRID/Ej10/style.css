@@ -1,0 +1,75 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    gap: 1px;
+    grid-template-areas: "c1 c2 c2"
+                         "c3 c4 c4"
+                         "c5 c4 c4";
+}
+
+main div{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+} 
+
+.c1{
+    grid-area: c1;
+}
+
+.c2{
+    grid-area: c2;
+}
+
+.c3{
+    grid-area: c3;
+}
+
+.c4{
+    grid-area: c4;
+}
+
+.c5{
+    grid-area: c5;
+}
+
+.c6{
+    grid-area: c6;
+}
+
+#c4Content{
+    display: grid;
+    padding: 60px;
+    gap: 1px;
+    grid-template-areas: "c41 c41"
+                         "c42 c43"
+                         "c44 c45";
+}
+
+#c4Content div{
+    background-color: rgb(165, 173, 180);
+    color: black;
+}
+
+.c41{
+    grid-area: c41;
+}
+
+.c42{
+    grid-area: c42;
+}
+.c43{
+    grid-area: c43;
+}
+.c44{
+    grid-area: c44;
+}
+.c45{
+    grid-area: c45;
+}
+
+
+
