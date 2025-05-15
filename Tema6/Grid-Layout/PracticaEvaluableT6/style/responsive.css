@@ -23,6 +23,205 @@ header img{
     text-align: center;
 }
 
+nav{
+    display: grid;
+    background-color: lightgrey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+}
+
+nav a:hover{
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 10px;
+}
+
+section{
+    display: grid;
+    grid-template-areas: "publi mark recur";
+    grid-template-columns: 12% 40% 10%;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.publi{
+    grid-area: publi;
+    border: 2px solid lightgrey;
+}
+
+.mark{
+    grid-area: mark;  
+}
+
+.mark h3{
+    background-color: lightgrey;
+    color: rgb(100, 100, 100);
+    text-align: center;
+}
+
+.mark h4{
+    color: rgb(100, 100, 100);
+}
+
+.recur{
+    grid-area: recur;
+    background-color: lightgrey;
+    height: 120px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px dotted rgb(100, 100, 100);
+}
+
+
+
+footer{
+    background-color: lightgrey;
+    border-top: 2px dotted rgb(100, 100, 100);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-style: italic;
+    
+}
+
+/*Estilo responsive movil*/
+@media (max-width: 480px){
+    header{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: "foto cabecera";
+        grid-template-columns: 20% 70%;
+        justify-content: space-between;
+    }
+    
+    
+    header img{
+        grid-area: foto;
+    }
+    
+    #cabecera{
+        grid-area: cabecera;
+        text-align: center;
+        padding-right: 10px;
+    }
+
+    nav{
+        background: none;
+        border: none;
+    }
+    
+    nav ul {
+        display: grid;
+        grid-template-areas: "hola" 
+                             "hola"
+                             "hola"
+                             "hola"
+                             "hola";
+        grid-template-rows: 30px 30px 30px 30px 30px;
+        gap: 10px;
+        padding: 3px;
+    }
+
+    nav ul li{
+        display: inline;
+        background-color: lightblue;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    section{
+        display: grid;
+        grid-template-areas: "publi"
+                             "mark"
+                             "recur";
+        grid-template-columns: 100%;
+        padding-top: 10px;
+        margin: 10px;
+    }
+    
+    .publi{
+        grid-area: publi;
+        border: 2px solid lightgrey;
+        text-align: center;
+    }
+
+    .publi h5{
+        text-align: start;
+    }
+
+}
+
+/*Estilo responsive tablet*/
+@media (max-width: 768px ){
+    header{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-areas: "foto cabecera";
+        grid-template-columns: 20% 70%;
+        justify-content: space-around;
+    }
+    
+    header img{
+        grid-area: foto;
+    }
+    
+    
+    nav{
+        display: grid;
+        background-color: lightgrey;
+        border-top: none;
+        border-bottom: 1px solid grey;
+    }
+   
+    
+    section{
+        display: grid;
+        grid-template-areas: "publi mark"
+                             "recur recur";
+        gap: 30px;
+        grid-template-columns: 50% 40%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 10px;
+    }
+    
+    .publi{
+        grid-area: publi;
+        border: 2px solid lightgrey;
+        text-align: center;
+        height: 300px;
+    }
+    
+    .publi h5{
+        text-align: center;
+    }
+    
+    footer{
+        background-color: lightgrey;
+        border-top: 2px dotted rgb(100, 100, 100);
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        font-style: italic;
+        
+    }
+}
+
 
 
 
