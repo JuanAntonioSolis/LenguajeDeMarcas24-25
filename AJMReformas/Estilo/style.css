@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    height: 500px;
+    display: grid;
+    grid-template-areas: "fotoC"
+                          "nave";
+    grid-template-columns: auto;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgb(56, 56, 56), lightgrey);
+}
+
+header img{
+    grid-area: fotoC;
+    width: 450px;
+}
+
+header nav{
+    grid-area: nave;
+    padding-bottom: 50px;
+    
+}
+
+
+nav ul{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+nav ul li{
+    display: inline;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav span a{
+    color: black;
+    font-weight: bolder;
+}
+
+nav a:hover:not(span a){
+    color: black;
+    font-weight: bolder;
+}
+
+#cabecera{
+    width: 100%;
+    position: relative;
+}
+
+#cabecera img{
+   width: 100%;
+}
+
+#butt{
+    padding-top: 45px;
+}
+
+#butt a{
+    text-decoration: none;
+    color: white;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#butt a:hover{
+    box-shadow: 5px 5px 5px rgb(59, 59, 59);
+    background-color: grey;
+    padding: 10px;
+
+}
+
+#textFoto{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 33%;
+    color: white;
+    text-shadow: 3px 3px 3px rgb(59, 59, 59);
+    font-size: x-large;
+}
+
+#textFoto h1{
+    border-bottom: 4px rgb(68, 68, 68) solid;
+    padding-bottom: 25px;
+}
+
+#convince{
+    padding-top: 40px;
+    background-image: linear-gradient(grey, white);
+
+}
+
+#convince h2{
+    text-align: center;
+}
+
+#convince div{
+    display: grid;
+}
+
+
+#galeria img{
+    width: 300px;
+}
+
+
