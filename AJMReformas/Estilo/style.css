@@ -198,12 +198,24 @@ nav a:hover:not(span a){
 footer{
     display: grid;
     grid-template-areas: "poli info ffot";
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 100px;
     background-color: black;
     color: white;
 }
 
 #poli{
     grid-area: poli;
+}
+
+#poli a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer ul li{
+    list-style-type: none;
 }
 
 
@@ -218,6 +230,12 @@ footer{
 #fotoFooter img{
     width: 250px;
 }
+
+#info img{
+    width: 40px;
+}
+
+
 
 
 
