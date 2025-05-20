@@ -11,7 +11,7 @@ header{
                           "nave";
     grid-template-columns: auto;
     justify-content: center;
-    background-image: linear-gradient(to bottom right, rgb(56, 56, 56), lightgrey);
+    background-image: linear-gradient(to bottom right, rgb(129, 129, 129), lightgrey);
 }
 
 header img{
@@ -63,6 +63,7 @@ nav a:hover:not(span a){
 
 #butt{
     padding-top: 45px;
+    font-size: smaller;
 }
 
 #butt a{
@@ -97,7 +98,7 @@ nav a:hover:not(span a){
 
 #convince{
     padding-top: 40px;
-    background-image: linear-gradient(grey, white);
+    background-image: linear-gradient(rgb(172, 171, 171), white);
 
 }
 
@@ -109,9 +110,119 @@ nav a:hover:not(span a){
     display: grid;
 }
 
-
 #galeria img{
     width: 300px;
 }
+
+#convince h2{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#conv img{
+    width: 40px;
+}
+
+#conv{
+    padding-top: 80px;
+    display: grid;
+    grid-template-areas: "conf seg"
+                         "pers presu";
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+    gap: 40px;
+}
+
+#conf{
+    grid-area: conf;
+}
+
+#seg{
+    grid-area: seg;
+}
+
+#pers{
+    grid-area: pers;
+}
+
+#pers{
+    grid-area: presu;
+}
+
+#conv h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+#galeria h2{
+    color: rgb(65, 64, 64);
+    text-shadow: 2px 2px 2px rgb(156, 156, 156);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+#fotos{
+    text-align: center;
+    display: grid;
+    grid-template-areas: "escAn facAn terAn"
+                         "escDes facDes terDes";
+    justify-content: center;
+    gap: 60px;
+}
+
+#escAn{
+    grid-area: escAn;
+}
+
+#escDes{
+    grid-area: escDes;
+}
+
+#facAn{
+    grid-area: facAn;
+}
+
+#facDes{
+    grid-area: facDes;
+}
+
+#terAn{
+    grid-area: terAn;
+}
+
+#terDes{
+    grid-area: terDes;
+}
+
+footer{
+    display: grid;
+    grid-template-areas: "poli info ffot";
+    background-color: black;
+    color: white;
+}
+
+#poli{
+    grid-area: poli;
+}
+
+
+#info{
+    grid-area: info;
+}
+
+#fotoFooter{
+    grid-area: ffoot;
+}
+
+#fotoFooter img{
+    width: 250px;
+}
+
+
+
+
+
+
 
 
