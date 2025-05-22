@@ -156,6 +156,10 @@ nav a:hover:not(span a){
     text-shadow: 2px 2px 2px black;
 }
 
+#galeria{
+    margin-bottom: 50px;
+}
+
 #galeria h2{
     color: rgb(65, 64, 64);
     text-shadow: 2px 2px 2px rgb(156, 156, 156);
@@ -209,7 +213,6 @@ footer{
     justify-content: space-around;
     background-color: black;
     color: white;
-    margin-top: 80px;
 }
 
 #poli{
@@ -294,6 +297,44 @@ footer ul li{
 
 #fots img{
     width: 70px;
+}
+
+#foti img{
+    width: 100%;
+}
+
+#foti{
+  position: relative;
+}
+
+#fotiText{
+    position: absolute;
+    top: 0%;
+    left: 38%;
+}
+
+#foti div img{
+    width: 400px;
+}
+
+#button{
+    font-size: smaller;
+    text-align: center;
+    margin-top: 0;
+}
+
+#button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(216, 67, 67);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#button a:hover{
+    box-shadow: 5px 5px 5px rgb(59, 59, 59);
+    background-color: rgb(139, 23, 23);
+    padding: 10px;
 }
 
 
