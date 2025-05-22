@@ -28,23 +28,43 @@
     <section id="comenzamos">
 
         <h2>¿Comenzamos?</h2>
-        <article>
-            <p>Rellena el formulario con una breve descripción de tu consulta y responderemos lo antes posible:</p>
 
-            <form action="">
-                <input type="text" placeholder="Nombre" id="nombreapellidos">
+        <div>
+            <article id="map">
 
-                <input type="text" placeholder="Correo electrónico" id="mail">
+                <ul>
+                    <li><span>Teléfono: </span> 663 78 40 77</li>
+                    <li><span>E-mail: </span> <a href="#"> ajmconsultas@gmail.com</a></li>
+                    <li><span>Dirección: </span> C/ Juan de Austria 5, 04600 - Huércal-Overa, Almeria</li>
+                </ul>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255.64089588671212!2d-1.9395870272051687!3d37.393523160849256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd652ef202caaf2b%3A0x3a70cf05aff65510!2sC.%20Juan%20de%20Austria%2C%205%2C%2004600%20Hu%C3%A9rcal-Overa%2C%20Almer%C3%ADa!5e1!3m2!1ses!2ses!4v1747946535591!5m2!1ses!2ses"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                <p><span>Horario de atención: </span> Lunes a viernes de 9:00 a 14:00 h y de 17:00 a 20:00 h</p>
+            </article>
 
-                <input type="text" placeholder="Teléfono" id="telf">
+            <article id="formulario">
+                <p>Rellena el formulario y responderemos a tu consulta lo antes posible:</p>
 
-                <textarea name="mensaje" id="mensaje" cols="50" rows="15" placeholder="Mensaje"></textarea>
+                <form action="">
+                    <input type="text" placeholder="Nombre" id="nombreapellidos">
 
-                <button type="button" onclick="alert('Formulario enviado correctamente')">ENVIAR</button>
+                    <input type="text" placeholder="Correo electrónico" id="mail">
 
-            </form>
+                    <input type="text" placeholder="Teléfono" id="telf">
 
-        </article>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="15" placeholder="Mensaje"></textarea>
+
+                    <button type="button" onclick="alert('Formulario enviado correctamente')">ENVIAR</button>
+
+                </form>
+
+            </article>
+        </div>
+
+
 
     </section>
 
@@ -52,7 +72,7 @@
 
 
     <footer>
-        <article>
+        <article id="poli">
             <h3>
                 POLÍTICAS
             </h3>
@@ -63,28 +83,28 @@
             </ul>
         </article>
 
-        <article>
+        <article id="info">
             <h3>INFORMACIÓN DE CONTACTO</h3>
             <ul>
                 <li>
-                    <img src="" alt="">
+                    <img src="../AJMReformas/Imagenes/espana.png" alt="">
                     <p>663 78 40 77</p>
                 </li>
 
                 <li>
-                    <img src="" alt="">
+                    <img src="../AJMReformas/Imagenes/reino-unido.png" alt="">
                     <p>663 96 07 52</p>
                 </li>
 
                 <li>
-                    <img src="" alt="">
+                    <img src="../AJMReformas/Imagenes/email.png" alt="">
                     <p>ajmconsultas@gmail.com</p>
                 </li>
             </ul>
         </article>
 
-        <article>
-            <img src="../AJMReformas/Imagenes/ajmlogo0.3.png" alt="">
+        <article id="fotoFooter">
+            <a href="../AJMReformas/index.html"><img src="../AJMReformas/Imagenes/ajmlogo0.3.png" alt=""></a>
         </article>
 
     </footer>

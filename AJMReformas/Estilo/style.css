@@ -347,7 +347,7 @@ footer ul li{
 }
 
 #quienes h3{
-    color: rgb(155, 155, 155);
+    color: rgb(0, 0, 0);
 }
 
 #quienes{
@@ -375,6 +375,93 @@ footer ul li{
     display: flex;
     line-height: 2;
 }
+
+.bonito{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(155, 155, 155)
+}
+
+#comenzamos{
+    padding: 50px 400px 50px 400px;
+}
+
+#comenzamos h2{
+    border-bottom: 3px solid rgb(155, 155, 155);
+    padding-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+#comenzamos div{
+    display: grid;
+    grid-template-areas: "map formulario";
+    gap: 150px;
+}
+
+#comenzamos span{
+    font-weight: bolder;
+}
+
+#map{
+    grid-area: map;
+}
+
+#formulario{
+    grid-area: formulario;
+}
+
+iframe{
+    width: 400px;
+    height: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form input{
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form select{
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form textarea{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+form button{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(139, 139, 139);
+    color: white;
+}
+
+form button:hover{
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 
 
