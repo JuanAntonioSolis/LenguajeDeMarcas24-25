@@ -337,6 +337,45 @@ footer ul li{
     padding: 10px;
 }
 
+#trayect{
+    padding: 50px 400px 50px 400px;
+}
+
+#trayect h1{
+    border-bottom: 3px solid rgb(155, 155, 155);
+    padding-bottom: 20px;
+}
+
+#quienes h3{
+    color: rgb(155, 155, 155);
+}
+
+#quienes{
+    display: grid;
+    grid-template-areas: "who"
+                         "origin"
+                         "valor";
+    gap: 50px;
+}
+
+#who{
+    grid-area: who;
+    display: flex;
+    line-height: 2;
+}
+
+#origin{
+    grid-area: origin;
+    display: flex;
+    line-height: 2;
+}
+
+#valor{
+    grid-area: valor;
+    display: flex;
+    line-height: 2;
+}
+
 
 
 
