@@ -446,6 +446,13 @@ form button:hover {
         width: 90%;
     }
 
+    header ul li {
+        border-bottom: 2px solid #F4F2EF;
+        padding-bottom: 5px;
+        margin-top: 2px;
+        padding-right: 0px;
+    }
+
     #servCalidad article {
         width: 80%;
     }
@@ -478,17 +485,17 @@ form button:hover {
     }
 
     #section1 {
-        
+
         width: 80%;
         margin: 0 auto;
     }
 
-    #section1 h2{
+    #section1 h2 {
         margin-top: 100px;
         font-size: 18px;
     }
 
-    .ben{
+    .ben {
         font-size: 11px;
     }
 
@@ -508,7 +515,7 @@ form button:hover {
         color: #213E60;
     }
 
-    #serv h2{
+    #serv h2 {
         font-size: 18px;
     }
 
