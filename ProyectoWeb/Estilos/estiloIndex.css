@@ -104,9 +104,10 @@ nav a:hover:not(span a) {
     column-count: 2;
 }
 
-.ben {
+.ben{
     padding-top: 30px;
     text-align: center;
+    
 }
 
 .ben h1 {
@@ -122,6 +123,8 @@ nav a:hover:not(span a) {
     border-radius: 7px;
     color: #213E60;
     padding-bottom: 20px;
+    
+    
 }
 
 #serv {
