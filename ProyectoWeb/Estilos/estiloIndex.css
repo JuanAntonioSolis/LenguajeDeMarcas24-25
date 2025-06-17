@@ -56,8 +56,8 @@ nav a:hover:not(span a) {
 
 #textFoto {
     position: absolute;
-    top: 10%;
-    left: 20%;
+    top: 20%;
+    left: 24%;
     color: #F4F2EF;
     text-shadow: 2px 2px 2px #2a472c;
     font-size: x-large;
